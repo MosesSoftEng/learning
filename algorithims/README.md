@@ -6,7 +6,7 @@ An algorithm designed to rearrange elements in a list or array in a specific ord
 
 ## Selection Sort Ascending.
 <div align="center">
-  <img src="simple-selection-sort-algorithm.png" alt="Image Description" />
+  <img src="sorting-algorithms/selection-sort/simple-selection-sort-algorithm.png" alt="Image Description" />
   <p><em>Selection Sort Ascending Illustration.</em></p>
 </div>
 
@@ -43,5 +43,5 @@ In selection sort, there are two nested loops.
  - It performs the sorting in-place, meaning it does not require additional space proportional to the input size.
  - The only extra space used is for temporary variables during swapping, which remains constant regardless of the input size.
 
-[👉 See Code](sorting-algorithims/simple-selection-sort-algorithm.py) | 
+[👉 See Code](sorting-algorithms/selection-sort/simple-selection-sort-algorithm.py) | 
 [▶️ Run Code](https://onecompiler.com/python/3z9enay29)
