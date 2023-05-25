@@ -1,0 +1,30 @@
+#!/usr/bin/env node
+
+
+/*
+ * Pipe data from fs.readStream to fs.writeStream.
+ */
+
+// Import fs module using require global function.
+const fs = require('fs');
+
+// Create a readable stream using fs module.
+const readableStream = fs.createReadStream('data.txt');
+
+// Specify file content encoding.
+readableStream.setEncoding('utf8');
+
+// Create a writable stream using fs module.
+const writableStream = fs.createWriteStream('output.txt');
+
+readableStream.pipe(writableStream);
+
+// Set read stream events.
+readableStream.on('data', function(chunk){
+    console.log('data', chunk);
+});
+
+// Set write stream events.
+writableStream.on('finish', function(){
+    console.log('finish');
+});

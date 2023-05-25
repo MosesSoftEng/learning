@@ -1,0 +1,33 @@
+#!/usr/bin/env node
+
+
+/*
+ * Script to read a file using fs module and stream object.
+ */
+
+// Import fs module using require global function.
+const fs = require('fs');
+
+// Create readable stream.
+const readableStream = fs.createReadStream('data.txt');
+
+// Confirm encoding
+console.log(Buffer.isEncoding('utf8'));
+
+// Set enconding.
+readableStream.setEncoding('utf8');
+
+// Handle stream events using eventEmitter, 
+//  on method is used to register an event and handler.
+readableStream.on('data', function (chunk) {
+    console.log('data', chunk);
+});
+readableStream.on('end', function () {
+    console.log('end');
+});
+readableStream.on('error', function (err) {
+    console.log('error', err);
+});
+readableStream.on('finish', function () {
+    console.log('finish');
+});
