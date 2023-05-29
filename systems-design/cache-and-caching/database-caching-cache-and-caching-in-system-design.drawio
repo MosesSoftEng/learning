@@ -1,0 +1,138 @@
+<mxfile host="Electron" modified="2023-05-29T13:36:10.912Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="_W2WB6yllYfkQPMZrRmG" version="21.2.8" type="device">
+  <diagram name="Page-1" id="a_7x29M0BtZMgexnZCFp">
+    <mxGraphModel dx="1668" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mKERD62oj-NlEk-neX_o-59" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="610" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-13" value="Server request." style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontFamily=Helvetica;strokeWidth=2;endArrow=blockThin;endFill=1;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry x="-0.0298" y="10" relative="1" as="geometry">
+            <mxPoint x="300" y="534" as="sourcePoint" />
+            <mxPoint x="440" y="533.75" as="targetPoint" />
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-14" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="248" y="520.75" width="50.49" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-15" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/databases.svg;" vertex="1" parent="1">
+          <mxGeometry x="640.6899999999999" y="520.75" width="65.31" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-16" value="Cache" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="441.69" y="593.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-17" value="Database" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="647" y="593.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-20" value="10 ms to process query." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="706" y="538" width="70" height="35.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-22" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cache_node;fillColor=#2E73B8;gradientColor=none;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="520.75" width="60" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-23" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Database response&lt;br style=&quot;font-size: 12px;&quot;&gt;store in cache.&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=6;startSize=6;jumpSize=9;jumpStyle=none;startArrow=blockThin;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;labelBackgroundColor=none;strokeWidth=2;fontSize=12;" edge="1" parent="1">
+          <mxGeometry x="-0.0049" relative="1" as="geometry">
+            <mxPoint x="500" y="571.75" as="sourcePoint" />
+            <mxPoint x="640.6900000000039" y="571.75" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-26" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Server request &lt;br style=&quot;font-size: 12px;&quot;&gt;not stored in cache.&lt;/font&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpSize=9;jumpStyle=none;startArrow=none;startFill=0;endArrow=blockThin;endFill=1;labelBackgroundColor=none;fontSize=12;fontFamily=Helvetica;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry x="-0.0049" relative="1" as="geometry">
+            <mxPoint x="500" y="534" as="sourcePoint" />
+            <mxPoint x="640.6900000000039" y="533.75" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-27" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Cache response.&lt;/span&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=6;startSize=6;jumpSize=9;jumpStyle=none;startArrow=blockThin;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry x="0.0093" y="11" relative="1" as="geometry">
+            <mxPoint x="299" y="571.75" as="sourcePoint" />
+            <mxPoint x="439.6900000000039" y="571.75" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-28" value="Server request." style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontFamily=Helvetica;strokeWidth=2;endArrow=blockThin;endFill=1;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry x="-0.0298" y="10" relative="1" as="geometry">
+            <mxPoint x="301" y="721" as="sourcePoint" />
+            <mxPoint x="441" y="720.75" as="targetPoint" />
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-29" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="249" y="707.75" width="50.49" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-30" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/databases.svg;" vertex="1" parent="1">
+          <mxGeometry x="641.6899999999999" y="707.75" width="65.31" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-31" value="Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="243.25" y="780.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-32" value="Database" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="644.35" y="780.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-33" value="10 ms to process query." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="707" y="725" width="70" height="35.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-34" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cache_node;fillColor=#2E73B8;gradientColor=none;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="441" y="707.75" width="60" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-37" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Cache response.&lt;/span&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=6;startSize=6;jumpSize=9;jumpStyle=none;startArrow=blockThin;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;strokeWidth=2;fontSize=12;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry x="0.0093" y="11" relative="1" as="geometry">
+            <mxPoint x="300" y="758.75" as="sourcePoint" />
+            <mxPoint x="440.6900000000039" y="758.75" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-38" value="Server request." style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.182;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontFamily=Helvetica;strokeWidth=2;endArrow=blockThin;endFill=1;labelBackgroundColor=none;" edge="1" parent="1" target="mKERD62oj-NlEk-neX_o-40">
+          <mxGeometry x="-0.0298" y="10" relative="1" as="geometry">
+            <mxPoint x="302" y="364" as="sourcePoint" />
+            <mxPoint x="442" y="363.75" as="targetPoint" />
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-39" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="250" y="350.75" width="50.49" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-40" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/databases.svg;" vertex="1" parent="1">
+          <mxGeometry x="642.6899999999999" y="350.75" width="65.31" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-41" value="Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="243" y="423.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-42" value="Database" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="649" y="423.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-43" value="10 ms to process query." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="708" y="368" width="70" height="35.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-45" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Database response.&lt;br&gt;&lt;/span&gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=6;startSize=6;jumpSize=9;jumpStyle=none;startArrow=classic;startFill=1;endArrow=none;endFill=0;labelBackgroundColor=none;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry x="-0.0078" y="12" relative="1" as="geometry">
+            <mxPoint x="300" y="402" as="sourcePoint" />
+            <mxPoint x="642.6900000000039" y="401.75" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-48" value="Response time will include 10ms database query time." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="300" y="450" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-49" value="Initial request response time will include 10ms database query time." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="299.49" y="625" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-50" value="Subsequent request response time will not have 10ms database query time." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="301.69" y="810.5" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-51" value="Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="243" y="593.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-52" value="Cache" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="439.49" y="780.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mKERD62oj-NlEk-neX_o-60" value="&lt;i&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Illustating database caching.&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="870" width="450" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
